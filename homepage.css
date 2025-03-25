@@ -1,0 +1,75 @@
+main {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.intro {
+    z-index: -1;
+    position: relative;
+    background-color: #664200; /* background-image: url(people_silhouette_1.png); */
+    background-size: cover;
+    color: #0a0505;
+}
+
+.intro_border {
+    border-bottom: 200px solid rgba(255, 255, 255, 0);
+    border-top: 100px solid rgba(255, 255, 255, 0);
+    background-color:rgba(255, 255, 255, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro p {
+    font-weight: 600;
+    color: #000000;
+}
+
+.custom-shape-divider-bottom-1742543177 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1742543177 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 158px;
+}
+
+.custom-shape-divider-bottom-1742543177 .shape-fill {
+    fill: #140000;
+}
+
+
+.custom-shape-divider-top-1742542881 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1742542881 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 158px;
+}
+
+.artistintro {
+    padding: 20px 40px;
+    background-color: #664200;
+}
+
+.artistintro .artist_poster {
+    padding: 20px;
+    max-width: 400px;
+    flex-shrink: 1;
+
+
+}
