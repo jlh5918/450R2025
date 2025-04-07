@@ -81,8 +81,9 @@ hr {
 header {
   position: relative;
   padding: 10px;
-  background-color: #664200;
-  /* background: linear-gradient(#2c0000, #411a03); */
+  /* background-color: #664200; */
+  background-image: url("purple\ type\ 1.png");
+  background-position: center;
   color: #FFFFFF;
   text-align: center;
   font-family: "Audiowide", Impact, 'Arial Narrow Bold', sans-serif;

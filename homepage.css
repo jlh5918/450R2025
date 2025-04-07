@@ -6,14 +6,16 @@ main {
 .intro {
     z-index: -1;
     position: relative;
-    background-color: #664200; /* background-image: url(people_silhouette_1.png); */
+    /* background-color: #664200;  background-image: url(people_silhouette_1.png); */
+    background-image: url("DSC_5298.png");
+    background-position: center;
     background-size: cover;
-    color: #0a0505;
+    color: #ffffff;
 }
 
 .intro_border {
-    border-bottom: 200px solid rgba(255, 255, 255, 0);
-    border-top: 100px solid rgba(255, 255, 255, 0);
+    border-bottom: 300px solid rgba(255, 255, 255, 0);
+    border-top: 10px solid rgba(255, 255, 255, 0);
     background-color:rgba(255, 255, 255, 0);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -21,7 +23,7 @@ main {
 
 .intro p {
     font-weight: 600;
-    color: #000000;
+    color: #ffffff;
 }
 
 .custom-shape-divider-bottom-1742543177 {
@@ -41,7 +43,8 @@ main {
 }
 
 .custom-shape-divider-bottom-1742543177 .shape-fill {
-    fill: #140000;
+    /* fill: #140000; */
+    fill: url(purple\ type\ 1.png);
 }
 
 
@@ -63,7 +66,9 @@ main {
 
 .artistintro {
     padding: 20px 40px;
-    background-color: #664200;
+    /* background-color: #664200; */
+    background-image: url("purple\ type\ 1.png");
+    background-position: center;
 }
 
 .artistintro .artist_poster {
