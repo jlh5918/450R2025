@@ -264,6 +264,18 @@ a.btn:hover {
   width: 100%;
 }
 
+.lesserhalf {
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.txtbox {
+  background-color: #b625ff47;
+  color: #000000;
+  padding: 20px;
+}
+
 .homestore {
   padding: 50px 0px;
   background-color: #000000;
